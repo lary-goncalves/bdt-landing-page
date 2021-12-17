@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #fffcf2;
+  background-color: #fffcf2
 }
 
 .center{
@@ -20,22 +20,103 @@ html, body{
 }
 
 .header{
+  height: 200px;
   padding: 20px 0;
+  ;
 }
 
-.logo{
-  width: 50%;
+
+.logo img{
+  width: 200px;
 }
 
 .menu{
-  padding-top: 30px;
-  width: 50%;
+  padding-top: 40px;
+  width: 80%;
   text-align: right;
 }
 
 .menu a{
-  color: black;
+  color: #2b2929;
   text-decoration: none;
   font-weight: bold 15px;
+  font-family: Ubuntu Mono;
+  font-size: 20px;
   margin-right: 15px;
+}
+
+section.sobre{
+  display: flex;
+  position: absolute;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+section.sobre:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+section.sobre div {
+  float: right;
+}
+section.sobre div:last-child {
+  float: right;
+  
+}
+
+.extra{
+  margin-right: 40px;
+  width: 1000px;
+  height: 1000px;
+}
+
+.texto-sobre h1, p, button{
+  color: #2b2929;
+  margin-left: 100px;  
+}
+
+.texto-sobre h1{
+  font-size: 30px;
+  margin-top: 130px;
+}
+
+.texto-sobre p{
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 20px;
+  font-style: normal;
+  margin-top: 20px;
+  margin-right: 10px;
+  
+}
+
+.texto-sobre button{
+  margin-top: 20px;
+  margin-right: 10px;
+  background-color: #5b1d4d;
+  padding: 10px;
+  border-radius: 15px;
+  font-family: 'Ubuntu Mono', monospace;
+  
+  font-size: 20px;
+  color: #fffcf2;
+  cursor:pointer;
+}
+span{
+  color: #ba7276;
+}
+
+.social-midia{
+  position: absolute;
+  right: 30px;
+  top: 130px;
+}
+
+.social-midia a{
+  display: block;
+  font-size: 35px;
+  margin: 20px 0;
+  color: #ba7276;
 }
